@@ -12,5 +12,6 @@ namespace AnimeSolution.Data.EF
         {
         }
         public DbSet<Anime> Animes { get; set; }
+        public DbSet<Category> Categories { get; set; }
     }
 }
