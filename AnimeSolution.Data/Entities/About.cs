@@ -5,17 +5,12 @@ using System.Text;
 
 namespace AnimeSolution.Data.Entities
 {
-    public class Anime
+    public class About
     {
-        public int AnimeID { get; set; }
+        public int AboutID { get; set; }
         public string Name { get; set; }
         public string Image { get; set; }
         public string Description { get; set; }
-        public DateTime Time { get; set; }
-        public string MoveLink { get; set; }
-        public int CategoryID { get; set; }
-        public int Rate { get; set; }
-        public int Viewed { get; set; }
         public DateTime CreatedDate { get; set; }
         public string CreatedBy { get; set; }
         public DateTime ModifiedDate { get; set; }
