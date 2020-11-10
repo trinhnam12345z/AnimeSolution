@@ -13,5 +13,11 @@ namespace AnimeSolution.Data.EF
         }
         public DbSet<Anime> Animes { get; set; }
         public DbSet<Category> Categories { get; set; }
+        public DbSet<About> Abouts { get; set; }
+        public DbSet<Comment> Comments { get; set; }
+        public DbSet<Contact> Contacts { get; set; }
+        public DbSet<Feedback> Feedbacks { get; set; }
+        public DbSet<News> News { get; set; }
+        public DbSet<Slide> Slides { get; set; }
     }
 }
