@@ -18,6 +18,7 @@ namespace AnimeSolution.Data.Configurations
             builder.Property(x => x.Image).IsRequired(true);
             builder.Property(x => x.Description).IsRequired(true);
             builder.Property(x => x.CreatedDate).IsRequired(true);
+            builder.Property(x => x.CreatedBy).IsRequired(true);
             builder.Property(x => x.Status).HasDefaultValue(Status.Active);
         }
     }

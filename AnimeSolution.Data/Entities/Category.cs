@@ -14,5 +14,6 @@ namespace AnimeSolution.Data.Entities
         public Status Status { get; set; }
         public int? ParentID { get; set; }
         public int DisplayOrder { get; set; }
+        public List<AnimeInCategory> AnimeInCategories { get; set; }
     }
 }

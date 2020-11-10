@@ -1,4 +1,5 @@
 ﻿using AnimeSolution.Data.Entities;
+using AnimeSolution.Data.Enums;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using System;
@@ -11,7 +12,16 @@ namespace AnimeSolution.Data.Configurations
     {
         public void Configure(EntityTypeBuilder<Feedback> builder)
         {
-            throw new NotImplementedException();
+            builder.ToTable("Feedbacks");
+            builder.HasKey(x => x.ID);
+            builder.Property(x => x.Name).IsRequired(true);
+            builder.Property(x => x.Phone).IsRequired(true);
+            builder.Property(x => x.Email).IsRequired(true);
+            builder.Property(x => x.Content).IsRequired(true);
+            builder.Property(x => x.Address).IsRequired(true);
+            builder.Property(x => x.CreatedDate).IsRequired(true);
+            builder.Property(x => x.Status).HasDefaultValue(Status.Active);
+
         }
     }
 }
