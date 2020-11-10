@@ -1,4 +1,6 @@
 # ASP .NET Core 3.1 Project
+_ASP .NET Core 3.1 Project, design a Anime Website for watching movie,..._
+_For education only_
 ### Required
 - ASP .NET Core 3.1
 - Entity Framework Core 3.1
@@ -6,10 +8,12 @@
 - .NET Core 3.1 SDK
 - SQL Server 2019
 - Git client
+-----
 ## Installed Packages
 - Microsoft.EntityFrameworkCore.Design
 - Microsoft.EntityFrameworkCore.SqlServer
 - Microsoft.EntityFrameworkCore.Tools
+-----
 ## Features
 - Have 4 branches, easily add/edit project, send a pull requests and not allowed anyone except contributors change files.
 - Admin page for management.
