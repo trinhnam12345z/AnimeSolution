@@ -26,7 +26,7 @@ _For education only._
 - Database design (temporary).
 ![ocTGKbh](https://user-images.githubusercontent.com/70925557/98498821-6e7d6c00-227a-11eb-9c84-647ea50a50ff.png)
 -----
-## How to configure and run
+## How to Configure and Run
 - Clone code from Github: git clone https://github.com/hntdahta/AnimeSolution
 - Open solution AnimeSolution.sln in Visual Studio 2019
 - Set startup project is AnimeSolution.Data
