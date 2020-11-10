@@ -16,7 +16,7 @@ namespace AnimeSolution.Data.Configurations
             builder.HasKey(x => x.ID);
             builder.Property(x => x.Name).IsRequired(true);
             builder.Property(x => x.Phone).IsRequired(true);
-            builder.Property(x => x.Email).IsRequired(true);
+            builder.Property(x => x.Email).IsRequired().IsUnicode(false).HasMaxLength(100);
             builder.Property(x => x.Content).IsRequired(true);
             builder.Property(x => x.Address).IsRequired(true);
             builder.Property(x => x.CreatedDate).IsRequired(true);

@@ -23,6 +23,7 @@ namespace AnimeSolution.Data.EF
             modelBuilder.ApplyConfiguration(new ContactConfiguration());
             modelBuilder.ApplyConfiguration(new FeedbackConfiguration());
             modelBuilder.ApplyConfiguration(new SlideConfiguration());
+            modelBuilder.ApplyConfiguration(new AnimeInCategoryConfiguration());
             //base.OnModelCreating(modelBuilder);
         }
         public DbSet<Anime> Animes { get; set; }
