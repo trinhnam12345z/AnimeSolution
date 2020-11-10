@@ -24,7 +24,7 @@ _For education only._
 - Frontend page for customer.
 - Git source control.
 - Database design (temporary).
-![image](https://user-images.githubusercontent.com/70925557/98659500-c00b2100-2376-11eb-90b9-e0e2a4cccff6.png)
+![kxz54IX](https://user-images.githubusercontent.com/70925557/98659669-efba2900-2376-11eb-84a9-2e6ff5cf07f0.png)
 -----
 ## How to Configure and Run
 - Clone code from Github: git clone https://github.com/hntdahta/AnimeSolution
