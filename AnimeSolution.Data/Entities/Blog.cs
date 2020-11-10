@@ -7,7 +7,7 @@ namespace AnimeSolution.Data.Entities
 {
     public class Blog
     {
-        public int NewsID { get; set; }
+        public int BlogID { get; set; }
         public string Name { get; set; }
         public string Image { get; set; }
         public string Description { get; set; }

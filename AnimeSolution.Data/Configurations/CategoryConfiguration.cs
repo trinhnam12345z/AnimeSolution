@@ -1,4 +1,5 @@
 ﻿using AnimeSolution.Data.Entities;
+using AnimeSolution.Data.Enums;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using System;
@@ -11,7 +12,13 @@ namespace AnimeSolution.Data.Configurations
     {
         public void Configure(EntityTypeBuilder<Category> builder)
         {
-            throw new NotImplementedException();
+            builder.ToTable("Categories");
+            builder.HasKey(x => x.CategoryID);
+            builder.Property(x => x.NameCategory).IsRequired(true);
+            builder.Property(x => x.CreatedDate).IsRequired(true);
+            builder.Property(x => x.CreatedBy).IsRequired(true);
+            builder.Property(x => x.Status).HasDefaultValue(Status.Active);
+
         }
     }
 }
