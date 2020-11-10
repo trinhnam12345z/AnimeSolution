@@ -5,7 +5,7 @@ using System.Text;
 
 namespace AnimeSolution.Data.Entities
 {
-    public class News
+    public class Blog
     {
         public int NewsID { get; set; }
         public string Name { get; set; }
