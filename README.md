@@ -1,5 +1,8 @@
 # ASP .NET Core 3.1 Project
 _ASP .NET Core 3.1 Project, design a Anime Website for watching movie,..._
+
+_Copyright ©2020 All rights reserved | This template is made by Colorlib_
+
 _For education only_
 ### Required
 - ASP .NET Core 3.1
