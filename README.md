@@ -16,9 +16,11 @@ _For education only._
 - Microsoft.EntityFrameworkCore.Design
 - Microsoft.EntityFrameworkCore.SqlServer
 - Microsoft.EntityFrameworkCore.Tools
+- Microsoft.Extensions.Configuration.FileExtensions
+- Microsoft.Extensions.Configuration.Json
 -----
 ## Features
-- Have 4 branches, easily add/edit project, send a pull requests and not allowed anyone except contributors change files.
+
 - Admin page for management.
 - Frontend page for customer.
 - Git source control.
