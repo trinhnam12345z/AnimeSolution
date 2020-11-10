@@ -33,7 +33,7 @@ _For education only._
 - Change connection string in appsettings.json in AnimeSolution.Data project
 - Open Tools --> Nuget Package Manager --> Package Manager Console in Visual Studio
 - Type <Update-Database> and Enter.
-- After migrate database successful, set Startup Project is AnimeSolution.WebApp
+- After migrating database successfully, set Startup Project is AnimeSolution.WebApp
 - Change database connection in appsettings.Development.json in AnimeSolution.WebApp project.
 - Choose profile to run or press F5
 -----
